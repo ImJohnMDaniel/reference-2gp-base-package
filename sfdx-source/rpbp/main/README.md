@@ -1,0 +1,72 @@
+Use this space to store metadata that will be part of the package build
+
+Suggested folder structure from this level is
+
+- analytics
+  - dashboards
+  - reports
+  - reportTypes
+- applications
+- classes
+  - actions
+  - batchables (executorables, finishables, startables)
+  - controllers
+  - criteria
+  - domains (domains, domain actions, domain criteria, etc)
+  - factories
+  - invocables
+  - interfaces (generic interfaces that don't belong in other folder)
+  - restapis
+  - selectors
+  - services
+  - utilities
+- documents
+- email
+- communities
+  - experiences
+  - networks
+  - navigationMenus
+  - networkBranding
+  - sharingSets
+  - siteDotComSites
+  - sites
+  - userCriteria
+- flows (flows and process builders)
+- schema
+  - customMetadata
+    - applicationFactoryBindings
+      - domainBindings
+      - selectorBindings
+      - serviceBindings
+      - uowBindings
+    - domainProcessBindings
+    - platformEventSubscriptions
+  - globalValueSets
+  - objects (includes Sobject files, Custom Metadata Types, workflows, validation rules, etc.)
+  - objectTranslations
+  - skills
+  - standardValueSets
+  - topicsForObjects
+  - triggers
+  - workflows
+- ui
+  - aura
+  - contentassets
+  - flexipages
+  - labels (Custom label file should be prefixed with project's prefix)
+  - layouts
+  - lwc
+  - notifications
+  - pages (visualforce pages)
+  - quickActions
+  - staticresources
+  - tabs
+- user
+  - customPermissions
+  - groups
+  - permissionSetGroups
+  - permissionSets
+  - profiles
+  - queues
+  - roles
+  - sharingRules
