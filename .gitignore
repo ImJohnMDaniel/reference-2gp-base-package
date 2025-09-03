@@ -5,7 +5,7 @@
 # Project Related directories
 sfdx-source/untracked/*
 !sfdx-source/untracked/README.md
-sfdx-source/rpbps/main/default
+sfdx-source/rpbp/main/default
 
 # Salesforce cache
 .sfdx/
